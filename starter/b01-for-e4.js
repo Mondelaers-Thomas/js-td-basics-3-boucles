@@ -22,6 +22,15 @@
     - un titre : "Voici les 10 premières valeurs de la table de multiplication par …"
     - pour chaque valeur, le calcul et le résultat (par exemple : 1 * 7 = 7)
   3. Tentez d'afficher la valeur de i après être sorti de la boucle…
-    - que se passe-t-il si vous avez déclaré i avec let ?
-    - que se passe-t-il si vous déclarez i avec var ?
+    - que se passe-t-il si vous avez déclaré i avec let ? -- la variable est inconnue car initialisé dans le compteur de la boucle;
+    - que se passe-t-il si vous déclarez i avec var ? -- la variable est connue même si initiliasé dans le compteur de la boucle;
 */
+const tableMultiplication = Number(prompt("Je voudrais afficher les 10 premières valeurs de la table de multiplication par"));
+
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${tableMultiplication} :`);
+
+for(var i = 0; i <= 10; i++){
+    console.log(i*tableMultiplication);
+}
+//-- console.log(i);
+

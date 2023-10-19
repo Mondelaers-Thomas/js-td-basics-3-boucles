@@ -24,11 +24,16 @@ EXEMPLE 5 :
 BONUS :
 - Après avoir quitté la boucle, affichez dans la console la chaîne complète saisie par l'utilisateur en concaténant les lettres.
 */
+let letter;
+let saisie = "";
 
-
-
-
-
+while(letter !== "X"){
+    letter = prompt("Tapez une lettre ou X pour sortir :");
+    if(letter !== "X"){
+        saisie += letter;
+    }
+}
+console.log(saisie);
 // code avec le bonus
 
 

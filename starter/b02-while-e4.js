@@ -18,5 +18,10 @@ Pour chaque itération, assurez-vous de vous arrêter après avoir affiché les 
 
 // 3. Utilisez un titre approprié pour informer l'utilisateur de ce qui est affiché, par exemple : "Voici les 10 premières valeurs de la table de multiplication par 7."
 */
-
-
+const tableMultiplication = Number(prompt("Je voudrais afficher les 10 premières valeurs de la table de multiplication par"));
+let i = 0;
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${tableMultiplication} :`);
+while(i <= 10){
+    console.log(i * tableMultiplication);
+    i++;
+}

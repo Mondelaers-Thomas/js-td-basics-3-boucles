@@ -13,4 +13,11 @@ EXEMPLE 3 :
 // 2. Utilisez une boucle 'while' pour répéter les instructions suivantes tant que 'nombre' est inférieur ou égal à 20 :
 //    - Affichez 'nombre' dans la console si 'nombre' est un nombre pair.
 //    - Incrémentez 'nombre' pour passer au nombre suivant.
+let nombre = 0;
 
+while(nombre <= 20){
+    if(nombre%2 === 0){
+        console.log(nombre);
+    }
+    nombre++;
+}
